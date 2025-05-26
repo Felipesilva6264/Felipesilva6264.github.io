@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Barros - Explorando o Universo do Desenvolvimento Web</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Felipe Barros</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção de Parallax -->
+        <section id="hero" class="parallax">
+            <div class="hero-content">
+                <h2>Explorando o Universo do Desenvolvimento Web</h2>
+                <p>Embarque em uma jornada pelo espaço do código e criatividade.</p>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Mim -->
+        <section id="about" class="content-section">
+            <h2>Sobre Mim</h2>
+            <p>Eu sou Felipe Barros, um explorador digital e desenvolvedor web. Minha missão é transformar ideias em realidades digitais, criando experiências imersivas e funcionais.</p>
+        </section>
+
+        <!-- Seção de Projetos com Botões Interativos -->
+        <section id="projects" class="content-section">
+            <h2>Meus Projetos</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="img/truck-scheduler.jpg" alt="Sistema de Agendamento de Caminhões">
+                    <div class="project-info">
+                        <h3>Sistema de Agendamento de Caminhões</h3>
+                        <p>Aplicativo completo para gerenciamento de transportes.</p>
+                        <a href="#" class="btn">Ver Projeto</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="img/inventory-app.jpg" alt="Aplicativo de Controle de Estoque">
+                    <div class="project-info">
+                        <h3>Aplicativo de Controle de Estoque</h3>
+                        <p>Ferramenta de gerenciamento de estoque para empresas.</p>
+                        <a href="#" class="btn">Ver Projeto</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="img/personal-site.jpg" alt="Site Pessoal com Design Moderno">
+                    <div class="project-info">
+                        <h3>Site Pessoal com Design Moderno</h3>
+                        <p>Uma página pessoal com design inovador.</p>
+                        <a href="#" class="btn">Ver Projeto</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contact" class="content-section">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Felipe Barros. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
