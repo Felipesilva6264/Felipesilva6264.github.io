@@ -27,25 +27,6 @@ window.addEventListener('scroll', function() {
     parallax.style.backgroundPositionY = scrollPosition * 0.5 + 'px';
 });
 
-// Form Submission Handling (for example purposes only)
-const contactForm = document.getElementById('contact-form');
-
-contactForm.addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent form from submitting
-
-    // Simple validation and alert (you can replace this with more advanced functionality)
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
-
-    if (name && email && message) {
-        alert('Formulário enviado com sucesso!');
-        contactForm.reset();
-    } else {
-        alert('Por favor, preencha todos os campos.');
-    }
-});
-
 // Animation for Scroll-In Effects
 const faders = document.querySelectorAll('.fade-in');
 const sliders = document.querySelectorAll('.slide-in');
